@@ -1,0 +1,119 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.aarestu</groupId>
+  <artifactId>HelloMavenSpringWebMVC</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  
+   <dependencies>
+    
+        <dependency>
+	         <groupId>javax.servlet</groupId>
+	         <artifactId>javax.servlet-api</artifactId>
+	         <version>3.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+       </dependency>
+    
+       <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>4.0.3.RELEASE</version>
+	  </dependency>
+    
+        <dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>4.0.3.RELEASE</version>
+		</dependency>
+        <dependency>
+	        <groupId>org.springframework</groupId>
+	        <artifactId>spring-webmvc</artifactId>
+	        <version>4.0.3.RELEASE</version>
+	     </dependency> 
+	     
+	     <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk</artifactId>
+            <version>1.11.46</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.amazonaws</groupId>
+            <artifactId>aws-java-sdk-osgi</artifactId>
+            <version>1.11.46</version>
+       </dependency>   
+
+       <dependency>
+           <groupId>com.amazonaws</groupId>
+           <artifactId>aws-java-sdk-core</artifactId>
+           <version>1.11.46</version>
+       </dependency>
+ 
+       <dependency>
+          <groupId>com.amazonaws</groupId>
+          <artifactId>aws-java-sdk-bom</artifactId>
+          <version>1.11.46</version>
+          <type>pom</type>
+           <scope>import</scope>
+       </dependency>
+        
+       <dependency>
+          <groupId>com.amazonaws</groupId>
+          <artifactId>aws-java-sdk-s3</artifactId>
+          <version>1.11.46</version>
+       </dependency>
+	     
+	  
+	  <dependency>
+	      <groupId>com.microsoft.azure</groupId>
+	      <artifactId>azure-storage</artifactId>
+	      <version>4.3.0</version>
+        </dependency>
+        
+        <dependency>
+	        <groupId>com.microsoft.azure</groupId>
+	        <artifactId>azure-core</artifactId>
+	        <version>0.9.3</version>
+        </dependency>
+        
+        <dependency>
+	       <groupId>com.microsoft.azure</groupId>
+	       <artifactId>azure-svc-mgmt</artifactId>
+	       <version>0.9.3</version>
+        </dependency>
+        
+        <dependency>
+	       <groupId>com.microsoft.azure</groupId>
+	       <artifactId>azure-mgmt-resources</artifactId>
+	       <version>1.0.0-beta2</version>
+        </dependency>
+        
+        <dependency>
+           <groupId>com.microsoft.azure</groupId>
+           <artifactId>azure-svc-mgmt-storage</artifactId>
+           <version>0.9.3</version>
+       </dependency>
+	  
+	  <dependency>
+          <groupId>com.microsoft.azure</groupId>
+              <artifactId>applicationinsights-logging-logback</artifactId>
+              <version>[1.0,)</version>
+      </dependency>
+      
+      
+      <dependency>
+           <groupId>com.googlecode.json-simple</groupId>
+           <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+      </dependency>
+	  
+	     
+	            
+  </dependencies>
+  
+  
+</project>
